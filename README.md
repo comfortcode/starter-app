@@ -18,9 +18,7 @@
     + Alert partial
      + Navigation partial with links to Basic pages, Devise views, and select resource views
 
-## Setup instructions
-+ Git
-  + Update Github information
+## Customization instructions
 + Navigation Bar
   + Edit “App Name” & links
 + Devise
@@ -30,6 +28,18 @@
   + If want to require email confirmation in order to create an account, add :confirmable to the list of devise "modules" (to the right of :validatable). This instructs Devise to send a confirmation email when a new user signs up
      + Do this before adding users, or add a special migration. Otherwise, some users will be unconfirmed in the system.  
   + Note: If you want emails to be sent out, you must set up Sendgrid (and Heroku or another hosting service)
+
+## Setup instructions
+1. Clone git repository
+  * git clone https://github.com/comfortcode/starter-app.git
+2. Set new remote
+  * git remote set-url origin git@github.com:comfortcode/rentals.git
+3. Install gems and dependencies
+  * bundle install
+4. Create db and migrate schema
+  * rake db:migrate
+5. Run your application
+  * rails s
 
 ## Ideas for expanding this app
 + Removing Extraneous Gems
