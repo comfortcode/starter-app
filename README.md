@@ -19,11 +19,11 @@
      + Navigation partial with links to Basic pages, Devise views, and select resource views
 
 ## Setup instructions
-Git
++ Git
   + Update Github information
-Navigation Bar
++ Navigation Bar
   + Edit “App Name” & links
-Devise
++ Devise
   + In config/environments/production.rb (right before end of file): config.action_mailer.default_url_options = { host:  'http://actualhostname.com/' }
   + Add other variables to user model before rake db:migrate (or in a new migration file)
   + Customize error messages in config/locales/devise.en.yml and links in app/views/devise/shared/_links.erb
