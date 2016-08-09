@@ -2,7 +2,7 @@
 
 ## What’s included in this app
 + Gems
-  + Basic pages
++ Basic pages
   + Created Home (root), About, and Contact pages
   + Set routes to intuitive routing (eg. app.com/contact)
 + Bootstrap
