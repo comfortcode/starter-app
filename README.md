@@ -31,7 +31,7 @@ Devise
      + Do this before adding users, or add a special migration. Otherwise, some users will be unconfirmed in the system.  
   + Note: If you want emails to be sent out, you must set up Sendgrid (and Heroku or another hosting service)
 
-Ideas for Expanding this Starter App
+## Ideas for Expanding this Starter App
 + Removing Extraneous Gems
 + Bootstrap Styling for Devise Forms
 + Pundit Permissions
