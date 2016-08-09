@@ -1,6 +1,6 @@
 # My Starter App
 
-## What’s included in this app?
+## What’s included in this app
 + Gems
   + Basic pages
   + Created Home (root), About, and Contact pages
@@ -18,7 +18,7 @@
     + Alert partial
      + Navigation partial with links to Basic pages, Devise views, and select resource views
 
-## Setup Instructions:
+## Setup instructions
 Git
   + Update Github information
 Navigation Bar
@@ -31,7 +31,7 @@ Devise
      + Do this before adding users, or add a special migration. Otherwise, some users will be unconfirmed in the system.  
   + Note: If you want emails to be sent out, you must set up Sendgrid (and Heroku or another hosting service)
 
-## Ideas for Expanding this Starter App
+## Ideas for expanding this app
 + Removing Extraneous Gems
 + Bootstrap Styling for Devise Forms
 + Pundit Permissions
