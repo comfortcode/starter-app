@@ -25,7 +25,7 @@
   + Edit “App Name” & links
 + Devise
   + In config/environments/production.rb (right before end of file): config.action_mailer.default_url_options = { host:  'http://actualhostname.com/' }
-  + Add other variables to user model before rake db:migrate (or in a new migration file)
+  + Add other variables to user migration file before rake db:migrate (or in a new migration file)
   + Customize error messages in config/locales/devise.en.yml and links in app/views/devise/shared/_links.erb
   + If want to require email confirmation in order to create an account, add :confirmable to the list of devise "modules" (to the right of :validatable). This instructs Devise to send a confirmation email when a new user signs up
      + Do this before adding users, or add a special migration. Otherwise, some users will be unconfirmed in the system.  
