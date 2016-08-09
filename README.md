@@ -34,6 +34,7 @@
 ## Ideas for expanding this app
 + Removing Extraneous Gems
 + Bootstrap Styling for Devise Forms
++ Reformatting Alerts to Appear Without Padding
 + Pundit Permissions
 + Outgoing Email Setup (Sendgrid, and a welcome email)
 + Contact Form
